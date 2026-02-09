@@ -1,4 +1,4 @@
-# HARVEST_HUB
+# HARVEST_HUB🌾
 
 Farmer Direct Market is a Java-based web application designed to eliminate middlemen by enabling direct interaction between farmers and customers. The platform allows farmers to sell their agricultural products directly to consumers, ensuring fair pricing for farmers and fresh, affordable produce for customers.
 
@@ -34,14 +34,58 @@ Database: (Add here – MySQL / Oracle / SQLite if used)
 
 Tools: Git, GitHub, VS Code / Eclipse / IntelliJ
 
-🎯 Project Objective
-
-The main objective of this project is to:
-
-Support farmers by giving them direct market access
-
-Reduce dependency on middlemen
-
-Ensure fair pricing and transparency
-
-Provide customers with fresh, seasonal agricultural products
+ #WORKING PROCESS OF THE PROJECT       ┌──────────────┐
+        │   Farmer     │
+        │ (Register /  │
+        │   Login)     │
+        └──────┬───────┘
+               │
+               ▼
+     ┌───────────────────┐
+     │ Add Crop Details  │
+     │ - Name            │
+     │ - Price           │
+     │ - Quantity        │
+     │ - Season          │
+     │ - Image           │
+     └──────┬────────────┘
+               │
+               ▼
+     ┌───────────────────┐
+     │ Crop Data Stored  │
+     │   in Database     │
+     └──────┬────────────┘
+               │
+               ▼
+        ┌──────────────┐
+        │  Customer    │
+        │ (Register /  │
+        │   Login)     │
+        └──────┬───────┘
+               │
+               ▼
+     ┌───────────────────┐
+     │ View Crop List    │
+     │ - Images          │
+     │ - Price           │
+     │ - Quantity        │
+     │ - Season          │
+     └──────┬────────────┘
+               │
+               ▼
+     ┌───────────────────┐
+     │ Select Crop &     │
+     │ Place Order       │
+     └──────┬────────────┘
+               │
+               ▼
+     ┌───────────────────┐
+     │ Direct Contact    │
+     │ Farmer ↔ Customer │
+     └──────┬────────────┘
+               │
+               ▼
+        ┌──────────────┐
+        │  Order       │
+        │ Completed    │
+        └──────────────┘
