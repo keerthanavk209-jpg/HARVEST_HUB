@@ -34,7 +34,10 @@ Database: (Add here – MySQL / Oracle / SQLite if used)
 
 Tools: Git, GitHub, VS Code / Eclipse / IntelliJ
 
- #WORKING PROCESS OF THE PROJECT       ┌──────────────┐
+ #WORKING PROCESS OF THE PROJECT
+ 
+ 
+        ┌──────────────┐
         │   Farmer     │
         │ (Register /  │
         │   Login)     │
